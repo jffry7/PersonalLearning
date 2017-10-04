@@ -14,18 +14,28 @@
     </style>
   </head>
 
-<!-- Main Content -->
+  /*Main Content*/
   <body>
 
     <div class="Pgtitle">
-	  <!--Void and Empty tag-->
+	  /*Void and Empty tag*/
 	  <h1><img src="icon_small.png" alt="notes"> Learning <em>HTML</em><img src="icon.png" width="64" height="64" alt="notes"></h1>
     </div>
 
-	<!--Div container as recommended-->
+    <div class="table">
+      <h2>Quick Links</h2>
+      <ol>
+        <li><a href="#WWW">What is WWW?</a></li>
+        <li><a href="#HTML">What is HTML?</a></li>
+        <li><a href="#element">HTML Elements</a></li>
+        <li><a href="#reference">Reference</a></li>
+      </ol>
+    </div>
+
+	  /*Div container as recommended*/
     <div class="content">
-      <div class="paragraph">
-		<!--2nd heading as recommended-->
+      <div id="WWW">
+		/*2nd heading as recommended*/
         <div class="lecture">
           <h2>WWW</h2>
           World Wide Web <span style="color:red">WWW</span> components are a <span style="color:red">Person</span> with <span style="color:blue">Computer</span> who connects to the <span style="color:blue">Intenet</span>. Uniform Resource Locators <span style="color:red">URL</span> is used to access <span style="color:red">HTML</span> (see next paragraph for more info) documents located on <span style="color:purple">Servers</span>.<br>
@@ -36,13 +46,13 @@
         </div>
       </div>
 
-      <div class="paragraph">
+      <div id="HTML">
         <h2>What is <em>HTML</em>?</h2>
         <p> HTML <em>(HyperText Markup Language)</em> is the most used document on the web. Watch the video of <a href="https://www.youtube.com/watch?v=5Kjx-NOwcSc">HTML Basics</a>.
         </p>
       </div>
 
-      <div class="paragraph">
+      <div id="element">
         <h2>HTML Tags and Elements</h2>
 
         <p style="font-family:courier;">
@@ -60,7 +70,7 @@
         </p>
       </div>
 
-      <div class="paragraph">
+      <div id="reference">
 		<h2>Reference</h2>
         <p>
           More html tags and their use on <a href="https://www.w3schools.com/html/">w3schools</a>.
