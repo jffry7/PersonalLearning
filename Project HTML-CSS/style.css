@@ -1,5 +1,16 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
   font-family: Comic Sans MS;
+}
+
+h1 {
+  display: flex;
 }
 
 h2 {
@@ -19,6 +30,12 @@ span {
   font-style: italic;
 }
 
+/* Header setup*/
+.header {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
 /* All title text*/
 .title {
   color: #006600;
