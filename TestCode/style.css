@@ -1,0 +1,45 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+#content {
+	max-width: 705px;
+	margin: 0 auto;
+}
+
+h1 {
+	background-color: #33BEBE  ;
+	color: white;
+	font-size: 48px;
+	font-family: Helvetica;
+	margin: 0;
+
+}
+
+
+p {
+	color: grey;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+.image > img {
+	margin-left: 0px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 95%;
+  max-height: 95%;
+}
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
