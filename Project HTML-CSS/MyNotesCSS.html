@@ -6,17 +6,14 @@
 
 <!-- header -->
   <head>
+    <meta charset="utf-8">
     <title>My Notes</title>
-    <style type="text/css">
-
+    <!-- <style type="text/css">
       body {
         font-family:'Comic Sans MS'
       }
-      h1 {
-
-      }
-      h3 {
-        color: red;
+      h2 {
+        background-color: grey;
       }
       p {
         margin: 1em;
@@ -29,7 +26,7 @@
         font-style: italic;
       }
       .title {
-        color: green;
+        color: #006600;
       }
       .redtext {
         color: red;
@@ -40,7 +37,8 @@
       .codetext {
         font-family: Courier;
       }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="style.css"
   </head>
 
   <!--Main Content-->
@@ -54,65 +52,65 @@
     <div class="table">
       <h2>Quick Links</h2>
       <ol>
-        <li><a href="#WWW">What is WWW?</a></li>
-        <li><a href="#HTML">What is HTML?</a></li>
+        <li><a href="#www">What is WWW?</a></li>
+        <li><a href="#html">What is HTML?</a></li>
         <li><a href="#element">HTML Elements</a></li>
         <li><a href="MyNotes.html">Original Project</a></li>
         <li><a href="#reference">Reference</a></li>
       </ol>
-    </div>
+    </div> <!--end quick links-->
 
 	  <!--Div container as recommended-->
-    <div class="content">
-      <div id="WWW">
-		<!--2nd heading as recommended-->
+    <div class="content"> <!--start content-->
+        <div id="www">
+  		<!--2nd heading as recommended-->
 
-        <h2 class="title">WWW</h2>
-        <p>World Wide Web <span class="redtext">WWW</span> components are a <span class="redtext">Person</span> with <span class="bluetext">Computer</span> who connects to the <span class="bluetext">Intenet</span>. Uniform Resource Locators <span class="redtext">URL</span> is used to access <span class="redtext">HTML</span> (see next paragraph for more info) documents located on <span style="color:purple">Servers</span>.
-        <p>
+          <h2 class="title">WWW</h2>
+          <p>World Wide Web <span class="redtext">WWW</span> components are a <span class="redtext">Person</span> with <span class="bluetext">Computer</span> who connects to the <span class="bluetext">Intenet</span>. Uniform Resource Locators <span class="redtext">URL</span> is used to access <span class="redtext">HTML</span> (see next paragraph for more info) documents located on <span style="color:purple">Servers</span>.
+          <p>
 
-        <h3>Udacity illustration:</h3>
-        <p>
-        <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png"><img src="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png" alt="Components"></img></a>
-        </p>
-      </div>
-
-      <div id="HTML">
-        <h2 class="title">What is <span class="redtext">HTML</span>?</h2>
-        <p> HTML <span>(HyperText Markup Language)</span> is the most used document on the web. Watch the video of <a href="https://www.youtube.com/watch?v=5Kjx-NOwcSc">HTML Basics</a>.
-        </p>
-      </div>
-
-      <div id="element">
-        <h2 class="title">HTML Tags and Elements</h2>
-
-        <!--<p style="font-family:courier;">-->
-
-          <h3>Inline</h3>
-          <p class="codetext">
-            &lt;b&gt; - Set Bold characters<br>
-            &lt;em&gt; - Set Italic characters<br>
-            &lt;br&gt; - Add Line Break<br>
-            &lt;img&gt; - Add Image (src=)<br>
-            &lt;a&gt; - Anchor (href=)<br>
-            &lt;span&gt; - Group elements<br>
+          <h3>Udacity illustration:</h3>
+          <p>
+          <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png"><img src="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png" alt="Components"></img></a>
           </p>
-          <h3>Block</h3>
-          <p class="codetext">
-            &lt;p&gt; - Paragraph<br>
-            &lt;form&gt; - create form for user input
+        </div> <!--end www-->
+
+        <div id="html">
+          <h2 class="title">What is <span class="redtext">HTML</span>?</h2>
+          <p> HTML <span>(HyperText Markup Language)</span> is the most used document on the web. Watch the video of <a href="https://www.youtube.com/watch?v=5Kjx-NOwcSc">HTML Basics</a>.
           </p>
+        </div> <!--end html-->
 
-      </div>
+        <div id="element">
+          <h2 class="title">HTML Tags and Elements</h2>
 
-      <div id="reference">
-		    <h2 class="title">Reference</h2>
-        <p>
-          More html tags and their use on <a href="https://www.w3schools.com/html/">w3schools</a>.
-        </p>
-      </div>
+          <!--<p style="font-family:courier;">-->
 
-    </div>
+            <h3>Inline</h3>
+            <p class="codetext">
+              &lt;b&gt; - Set Bold characters<br>
+              &lt;em&gt; - Set Italic characters<br>
+              &lt;br&gt; - Add Line Break<br>
+              &lt;img&gt; - Add Image (src=)<br>
+              &lt;a&gt; - Anchor (href=)<br>
+              &lt;span&gt; - Group elements<br>
+            </p>
+            <h3>Block</h3>
+            <p class="codetext">
+              &lt;p&gt; - Paragraph<br>
+              &lt;form&gt; - create form for user input
+            </p>
+
+        </div> <!--end element-->
+
+        <div id="reference">
+  		    <h2 class="title">Reference</h2>
+          <p>
+            More html tags and their use on <a href="https://www.w3schools.com/html/">w3schools</a>.
+          </p>
+        </div> <!--end reference-->
+
+    </div> <!--end content-->
 
   </body>
 
