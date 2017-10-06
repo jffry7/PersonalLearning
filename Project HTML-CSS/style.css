@@ -9,6 +9,7 @@
 
 body {
   font-family: Comic Sans MS;
+  background-color: grey;
 }
 
 h1 {
@@ -16,7 +17,13 @@ h1 {
 }
 
 h2 {
-  background-color: grey;
+  background-color: #20B2AA ;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+img {
+  border-radius: 20px;
 }
 
 p {
@@ -32,16 +39,24 @@ span {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #B8860B;
+  border-radius: 20px;
 }
 /* All title text*/
 .title {
   color: #006600;
 }
 
+.content {
+  border-radius: 20px;
+  border: red solid 4px;
+}
 /* for all image within paragraph*/
 .content-image {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 /* red highlighted text*/
