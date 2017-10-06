@@ -3,6 +3,8 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 2px;
+    /*border: red solid 2px;*/
 }
 
 body {
@@ -21,11 +23,6 @@ p {
   margin: 1em;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 span {
   font-style: italic;
 }
@@ -39,6 +36,12 @@ span {
 /* All title text*/
 .title {
   color: #006600;
+}
+
+/* for all image within paragraph*/
+.content-image {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* red highlighted text*/
