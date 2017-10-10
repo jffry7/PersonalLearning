@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Project1 Udacity Course -->
+<!-- My Notes -->
+
+<html lang=en>
+<!-- header -->
+  <head>
+    <meta charset="utf-8">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!--Main Content-->
+  <body>
+    <div class="header">
+	  <!--Void and Empty tag-->
+
+        <img src="images/icon_small.png" alt="notes">
+
+
+         <h1 class="title">Learning HTML and CSS<!--<img src="icon.png" width="64" height="64" alt="notes">--></h1>
+
+    </div>
+
+    <div class="table">
+      <h2 class="title" id="quick-links">Quick Links</h2>
+      <ol>
+        <li><a href="#www">What is WWW?</a>
+            <ul>
+              <li><a href="#U-illustration">Udacity Illustration</a></li>
+            </ul>
+          </li>
+        <li><a href="#html">What is HTML?</a></li>
+        <li><a href="#element">HTML Elements</a>
+            <ul>
+              <li><a href="#inline-tag">Some Inline tags</a></li>
+              <li><a href="#block-tag">Some Block tags</a></li>
+            </ul>
+          </li>
+        <li><a href="#css">Everything about CSS</a>
+            <ul>
+              <li><a href="#css-sample">Sample CSS code</a></li>
+            </ul>
+          </li>
+        <li><a href="MyNotes.html">Original Project</a></li>
+        <li><a href="#reference">Reference</a></li>
+      </ol>
+    </div> <!--end quick links-->
+
+	  <!--Div container as recommended-->
+    <div class="content"> <!--start content-->
+        <div id="www">
+  		<!--2nd heading as recommended-->
+
+          <h2 class="title">WWW</h2>
+          <div>
+            <p>
+              World Wide Web <span class="redtext">WWW</span> components are a <span class="redtext">Person</span> with <span class="bluetext">Computer</span> who connects to the <span class="bluetext">Intenet</span>. Uniform Resource Locators <span class="redtext">URL</span> is used to access <span class="redtext">HTML</span> (see next paragraph for more info) documents located on <span style="color:purple">Servers</span>.
+            </p>
+
+              <h3 id="U-illustration">Udacity illustration:</h3>
+
+
+              <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png">
+                <img class="content-image" src="https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588bdc63_components/components.png" alt="WWW workflow">
+                <!--</img>-->
+              </a>
+            </div>
+        </div> <!--end www-->
+
+        <div id="html">
+          <h2 class="title">What is <span class="redtext">HTML</span>?</h2>
+          <p>HTML <span>(HyperText Markup Language)</span> is the most used document on the web. As per w3school, HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as "heading", "paragraph", "table", and so on. Browsers do not display the HTML tags, but use them to render the content of the page. Watch the video of <a href="https://www.youtube.com/watch?v=5Kjx-NOwcSc">HTML Basics</a>.
+          </p>
+        </div> <!--end html-->
+
+        <div id="element">
+          <h2 class="title">HTML Tags and Elements</h2>
+          <div>
+            <h3 id="inline-tag">Inline</h3>
+            <p class="codetext">
+              &lt;b&gt; - Set Bold characters<br>
+              &lt;em&gt; - Set Italic characters<br>
+              &lt;br&gt; - Add Line Break<br>
+              &lt;img&gt; - Add Image (src=)<br>
+              &lt;a&gt; - Anchor (href=)<br>
+              &lt;span&gt; - Group elements<br>
+            </p>
+            <h3 id="block-tag">Block</h3>
+            <p class="codetext">
+              &lt;p&gt; - Paragraph<br>
+              &lt;form&gt; - create form for user input
+            </p>
+          </div>
+        </div> <!--end element-->
+
+        <div id="css">
+          <h2 class="title">Everything about CSS</h2>
+          <p>
+            As per w3cschool, Cascading Style Sheet <span class="redtext">(CSS)</span> is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced.
+          </p>
+          <h3 id="css-sample">Sample CSS</h3>
+          <pre class="codetext">
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            body {
+            	margin: 0;
+            }
+            #content {
+            	max-width: 705px;
+            	margin: 0 auto;
+            }
+
+            h1 {
+            	background-color: #33BEBE  ;
+            	color: white;
+            	font-size: 48px;
+            	font-family: Helvetica;
+            	margin: 0;
+
+            }
+          </pre>
+        </div>
+
+        <div id="reference">
+  		    <h2 class="title">Reference</h2>
+          <p>
+            More html tags and their use on <a href="https://www.w3schools.com/html/">w3schools</a>.<br>
+            Verify HTML at <a href="https://validator.w3.org/">w3</a>.<br>
+            Verify CSS at <a href="http://jigsaw.w3.org/css-validator/">w3</a>.<br>
+          </p>
+        </div> <!--end reference-->
+
+    </div> <!--end content-->
+    <ol>
+      <li><a href="#quick-links">Back to Quick Links</a></li>
+      <!--link back to top-->
+    </ol>
+  </body>
+
+</html>
