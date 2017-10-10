@@ -1,0 +1,2 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning
+https://www.webmechanix.com/advantages-of-html5-and-semantic-markup
